@@ -1,0 +1,171 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+} */
+button:hover {
+  border-color: #646cff;
+}
+
+input {
+  padding: 10px 9px !important;
+  height: 30px !important;
+  width: 295px !important;
+  border-width: 1px !important;
+}
+
+nav {
+  /* border-bottom: 1px solid rgb(219, 219, 219); */
+}
+
+.searchBar fieldset {
+  border-width: 0px !important;
+}
+
+.searchBar input {
+  height: 46px !important;
+}
+
+.selector fieldset {
+  border-width: 0.5px;
+  border: 1px solid rgb(219, 219, 219) !important;
+  border-radius: 0px !important;
+
+}
+
+a {
+  font-size: 14px;
+  color: #414141 !important;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+span:focus-visible {
+  background-color: none !important;
+}
+
+/* navbar */
+
+nav {
+  background-color: #fff !important;
+  color: #000 !important;
+  box-shadow: none !important;
+}
+
+li {
+  font-size: 16px !important;
+  color: #000 !important;
+  font-weight: 400 !important;
+}
+
+li:hover {
+  background-color: white !important;
+}
+
+li:focus-visible {
+  background-color: white !important;
+}
+
+h6 {
+  font-size: 15px !important;
+  color: #414141 !important;
+}
+
+.divider div {
+  background-color: #fff;
+  border: 1px solid rgb(174, 173, 173);
+  color: rgb(87, 83, 83);
+  font-size: 13px;
+}
+
+.sort svg {
+  color: rgb(87, 83, 83) !important;
+}
+
+.CardButton {
+  background: #FFFFFF 0% 0% no-repeat padding-box !important;
+  border: 2px solid #F88634 !important;
+  color: #F88634 !important;
+  font-weight: 500 !important;
+  height: 45px;
+  width: 120px;
+  border: 2px solid #F8D441;
+  border-radius: 25px !important;
+  opacity: 1;
+  text-transform: none !important;
+  font-size: 17px !important;
+  margin: 17px !important;
+}
+
+.favoriteIcon {
+  background: #000000 0% 0% no-repeat padding-box !important;
+  opacity: 0.5 !important;
+  border-radius: 17px;
+  color: #fff !important;
+  width: 35px !important;
+  height: 35px !important;
+  font-size: 20px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 7px;
+  top: 115px;
+}
+
+.locationChip {
+  background: #000000 0% 0% no-repeat padding-box !important;
+  border-radius: 18px;
+  opacity: 0.4 !important;
+  color: #fff !important;
+  position: absolute;
+  right: 7px;
+  top: 10px;
+  border: none !important;
+}
+
+.cardTitleChip {
+  background: #fff !important;
+  position: absolute;
+  top: 31%;
+  right: 34%;
+  left: 34%;
+  color: #414141;
+  font-size: 15px !important;
+  font-weight: 500;
+}
+
+#demo-customized-button {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0.97px 0.26px 3px #0000000D;
+  border: 1px solid #D9D9D9;
+  border-radius: 3px;
+  opacity: 1;
+  color: #414141;
+  text-transform: none;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 4% 0%;
+}
